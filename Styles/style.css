@@ -74,8 +74,15 @@ a:hover {
 }
 
 .projetos {
-    height: 100vh;
+    min-height: 100vh;
     padding: 2em;
+}
+
+footer h2,
+.projetos h2{
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
     margin-bottom: 1.5em;
 }
 
@@ -98,11 +105,6 @@ a:hover {
 
 .projetos figure {
     text-align: center;
-}
-
-.projetos h2{
-    color: whitesmoke;
-    font-family: 'Press Start 2P', cursive;
 }
 
 .img-projetos {
