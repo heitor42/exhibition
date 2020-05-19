@@ -30,16 +30,13 @@ header {
 .menu a {
     display: block;
     padding: 10px 30px;
-
+    transition: background-color 0.5s, color 0.5s;
 }
 
-.menu ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-.menu li {
-    list-style: none;
+.menu a:active,
+.menu a:hover {
+    background-color: teal;
+    color: whitesmoke;
 }
 
 a {
@@ -49,6 +46,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
 }
 
 .site-title,
